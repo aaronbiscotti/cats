@@ -22,7 +22,7 @@ function CatGenerator() {
             <button onClick={fetchRandomImage} disabled={isLoading} className="p-5 w-[300px] border border-black rounded-full">
                 {isLoading ? 'Loading...' : 'Spawn cat'}
             </button>
-            {imageUrl && <img src={imageUrl} className="max-h-[500px]" alt="Random cat" />}
+            {imageUrl && <img src={imageUrl} className="max-h-[400px]" alt="Random cat" />}
         </>
     );
 }
