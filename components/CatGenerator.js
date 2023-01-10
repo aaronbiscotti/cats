@@ -17,7 +17,6 @@ function CatGenerator() {
             setIsLoading(false);
         }
     }
-
     return (
         <>
             <button onClick={fetchRandomImage} disabled={isLoading} className="p-10 w-[500px] border border-black rounded-full">
